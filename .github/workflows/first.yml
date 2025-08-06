@@ -1,9 +1,11 @@
+
 name: first_wk
-on: push
-jobs: 
-    hamada:
-        runs-on: ubuntu-latest
-        steps:
-            name: welcom
-            run: echo "hello data eng"
-            
+on: 
+  push:
+
+jobs:
+  hamada:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcom
+        run: echo "hello data eng"
