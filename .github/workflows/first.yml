@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: welcom
-        run: echo "hello data eng"
+        run: echo "hello data enging"
