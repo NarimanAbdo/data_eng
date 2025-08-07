@@ -13,4 +13,7 @@ jobs:
       - name: checkout_
         uses: actions/checkout@v4.1.7
 
+      - name: files_list
+        run: ls
+
 
